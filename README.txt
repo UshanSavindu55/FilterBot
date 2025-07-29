@@ -44,7 +44,7 @@ FilterBot is great to learn email automation as well as Python scripting and pro
 
 ```bash
 
-git clone https://github.com/yourusername/filterbot.git
+git clone https://github.com/UshanSavindu55/FilterBot.git
 
 cd filterbot
 
