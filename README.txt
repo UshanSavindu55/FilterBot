@@ -62,7 +62,6 @@ venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
 
-
 4. Create a .env file in the root directory with your credentials
 
 EMAIL=your_email@example.com
@@ -82,7 +81,6 @@ The script will connect to your inbox, scan recent emails, flag unwanted ones ba
 
 Edit configs/keywords.json to customize which keywords trigger filtering. Example:
 
-
 [
   "win",
   "free",
@@ -100,14 +98,16 @@ python -m unittest discover tests
 
 📈 Future Improvements
 
-Integrate machine learning for smarter spam detection
-Add OAuth2 authentication support
-Build a GUI or web dashboard for easier interaction
-Schedule automatic runs with cron or Task Scheduler
-Add email backup before deletion
+- Integrate machine learning for smarter spam detection
+
+- Add OAuth2 authentication support
+
+- Build a GUI or web dashboard for easier interaction
+
+- Schedule automatic runs with cron or Task Scheduler
+
+- Add email backup before deletion
 
 🤝 Contributing
 
 Contributions and suggestions are welcome! Feel free to open issues or pull requests.
-
-
